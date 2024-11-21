@@ -1,28 +1,9 @@
 Naive Bayes Classification Report on the Iris Dataset
-Group 16
-Ghufran Abban M24F007AI017 			Abdullah M24F0044DS009	
+
 Abstract
 This study applies four Naïve Bayes algorithms—Multinomial, Bernoulli, Gaussian, and Complement—on the Iris dataset to evaluate their classification effectiveness. Using Python's Scikit-learn library, we develop models to classify species based on sepal and petal measurements, using a train-test split for performance evaluation. The models' predictive capacities are analyzed through accuracy, precision, recall scores and confusion matrices, highlighting the unique strengths of each algorithm. This analysis aims to provide insight into how varying Naïve Bayes approaches handle continuous feature data, contributing to an understanding of model selection in machine learning classification tasks.
 Introduction
 Naive Bayes classifiers are a group of probabilistic algorithms based on Bayes' theorem, widely valued for their simplicity and efficiency. This study applies four Naive Bayes classifiers to the classic Iris dataset, a multivariate dataset ideal for classification tasks. The aim is to determine the efficacy of each Naive Bayes variant, showcasing their strengths in processing the Iris dataset's specific features and comparing their predictive accuracy through performance metrics.
-Overview diagram 
- 
-Figure 1: Naive Bayes Model Evaluation
-
-Dataset:
-The Iris flower data set or Fisher's Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper.
-Name 	Role 	Type	Demographic	Description	Units 	Missing values
-Sepal Length	Feature 	Continuous	None	None	Cm	No
-Sepal Width	Feature	Continuous	None	None	Cm	No
-Petal Length	Feature	Continuous	None	None	Cm	No
-Petal Width	Feature	Continuous	None	None	Cm	No
-Species	Target	Categorical	None	Class of Iris Plant: Iris Setosa, Iris Versicolor, Iris-virginica 		No
-Table 1: Variables Table
-   
-Table 2: Iris Dataset
-The dataset is presented in the tables above. It includes measurements of three different types of Iris flowers: Iris Setosa, Iris Versicolor, and Iris Virginica. Each flower sample is represented by five attributes:
-Sepal Length, Sepal Width, Petal Length, Petal Width, and Species.
-The dataset has no missing values and each attribute is well-defined in terms of its measurement units and description. This simple structure of Iris dataset makes it an ideal choice for testing and comparing classification algorithms, such as Naïve Bayes. 
 
 Model
 This study utilizes Scikit-learn's implementation of Naive Bayes classifiers, applying train-test split validation to separate the dataset into training and testing subsets (70% and 30%, respectively). Each Naive Bayes variant—MultinomialNB, BernoulliNB, GaussianNB, and ComplementNB—is trained on the Iris dataset, with results stored in an organized framework to capture accuracy, precision, recall, and confusion matrix data for comparative analysis.
